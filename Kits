@@ -9,6 +9,9 @@ combat:
       #name: level
       weapon_sharpness: 1
       weapon_knockback: 1
+  - id: 270
+    damage: 0
+    count: 1
   helmet:
     id: 298
     name: "Combat Helmet"
@@ -45,6 +48,9 @@ designer:
   - id: 17
     damage: 0
     count: 17
+  - id: 270
+    damage: 0
+    count: 1
   helmet:
     id: 298
     name: "Designer Helmet"
@@ -84,6 +90,9 @@ designer:
     damage: 0
     count: 1
     name: "Sniper's Sword"
+  - id: 274
+    damage: 0
+    count: 1
   helmet:
     id: 306
     name: "Sniper's Helmet"
@@ -117,6 +126,9 @@ designer:
       #name: level
       weapon_sharpness: 1
       weapon_knockback: 2
+    - id: 274
+    damage: 0
+    count: 1
   helmet:
     id: 298
     name: "RCombat Helmet"
@@ -150,6 +162,9 @@ designer:
       #name: level
       weapon_sharpness: 3
       weapon_knockback: 1
+   - id: 257
+    damage: 0
+    count: 1
   helmet:
     id: 298
     name: "Active's Helmet"
@@ -183,6 +198,9 @@ youtuber:
       #name: level
       weapon_sharpness: 3
       weapon_knockback: 1
+   - id: 257
+    damage: 0
+    count: 1
   helmet:
     id: 298
     name: "Youtuber's Helmet"
@@ -216,6 +234,9 @@ youtuber:
       #name: level
       weapon_sharpness: 1
       weapon_knockback: 1
+   - id: 257
+    damage: 0
+    count: 1
   items:
   - id: 17
     count: 10
