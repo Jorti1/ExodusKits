@@ -27,7 +27,7 @@ combat:
     hours: 0
     minutes: 15
   commands:
-  - "tell {player} You just got the combat kit! Their is a 15 minute cooldown until you can redeem this kit again! You can have access to more kits after you purchase ExodusMember!"
+  - "tell {player} You just got the Combat kit! Their is a 15 minute cooldown until you can redeem this kit again! You can have access to more kits after you purchase ExodusMember!"
   effects:
   - name: "speed"
     seconds: 30
@@ -63,7 +63,7 @@ designer:
     hours: 0
     minutes: 15
   commands:
-  - "tell {player} You just got the designer kit! Their is a 15 minute cooldown until you can redeem this kit again! You can have access to more kits after you purchase ExodusMember!"
+  - "tell {player} You just got the Designer kit! Their is a 15 minute cooldown until you can redeem this kit again! You can have access to more kits after you purchase ExodusMember!"
   effects:
   - name: "speed"
     seconds: 40
@@ -102,7 +102,7 @@ designer:
     hours: 0
     minutes: 15
   commands:
-  - "tell {player} You just got the sniper kit! Their is a 15 minute cooldown until you can redeem this kit again! You can have access to more kits after you purchase ExodusMember!"
+  - "tell {player} You just got the Sniper kit! Their is a 15 minute cooldown until you can redeem this kit again! We'd like to thank you for purchasing ExodusMember!"
   effects:
   - name: "speed"
     seconds: 100
@@ -135,7 +135,7 @@ designer:
     hours: 0
     minutes: 15
   commands:
-  - "tell {player} You just got the reinforced combat kit! Their is a 15 minute cooldown until you can redeem this kit again! You can have access to more kits after you purchase ExodusMember!"
+  - "tell {player} You just got the Reinforced Combat kit! Their is a 15 minute cooldown until you can redeem this kit again! We'd like to thank you for purchasing ExodusMember!"
   effects:
   - name: "speed"
     seconds: 100
@@ -168,7 +168,7 @@ designer:
     hours: 0
     minutes: 15
   commands:
-  - "tell {player} You just got the Active kit! Their is a 15 minute cooldown until you can redeem this kit again! You can have access to more kits after you purchase ExodusMember!"
+  - "tell {player} You just got the Active kit! Their is a 15 minute cooldown until you can redeem this kit again! We'd like to thank you for being an active player of ours, keep it up!"
   effects:
   - name: "speed"
     seconds: 120
