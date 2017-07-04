@@ -206,4 +206,40 @@ youtuber:
   - name: "speed"
     seconds: 120
     amplifier: 2
+ streamer:
+  items:
+  - id: 272
+    damage: 0
+    count: 1
+    name: "Streamer's Sword"
+    enchantment:
+      #name: level
+      weapon_sharpness: 1
+      weapon_knockback: 1
+  items:
+  - id: 17
+    count: 10
+  helmet:
+    id: 298
+    name: "Streamer's Helmet"
+    enchantment:
+      armor_protection: 1
+  chestplate:
+    id: 299
+    name: "Streamer's Chestplate"
+  leggings:
+    id: 300
+    name: "Streamer's Leggings"
+  boots:
+    id: 301
+    name: "Streamer's Boots"
+      cooldown:
+    hours: 0
+    minutes: 15
+  commands:
+  - "tell {player} You just got the Streamer kit! Their is a 15 minute cooldown until you can redeem this kit again!"
+  effects:
+  - name: "speed"
+    seconds: 60
+    amplifier: 2
 ...
