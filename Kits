@@ -140,4 +140,37 @@ designer:
   - name: "speed"
     seconds: 100
     amplifier: 2
+ active:
+  items:
+  - id: 272
+    damage: 0
+    count: 1
+    name: "Active's Sword"
+    enchantment:
+      #name: level
+      weapon_sharpness: 3
+      weapon_knockback: 1
+  helmet:
+    id: 298
+    name: "Active's Helmet"
+    enchantment:
+      armor_protection: 1
+  chestplate:
+    id: 303
+    name: "Active's Chestplate"
+  leggings:
+    id: 300
+    name: "Active's Leggings"
+  boots:
+    id: 301
+    name: "Active's Boots"
+      cooldown:
+    hours: 0
+    minutes: 15
+  commands:
+  - "tell {player} You just got the Active kit! Their is a 15 minute cooldown until you can redeem this kit again! You can have access to more kits after you purchase ExodusMember!"
+  effects:
+  - name: "speed"
+    seconds: 120
+    amplifier: 2
 ...
