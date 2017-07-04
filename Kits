@@ -16,10 +16,13 @@ combat:
       armor_protection: 1
   chestplate:
     id: 299
+    name: "Combat Chestplate"
   leggings:
     id: 300
+    name: "Combat Leggings"
   boots:
     id: 301
+    name: "Combat Boots"
       cooldown:
     hours: 0
     minutes: 15
@@ -64,5 +67,77 @@ designer:
   effects:
   - name: "speed"
     seconds: 40
+    amplifier: 2
+ sniper:
+  items:
+  - id: 261
+    damage: 0
+    count: 1
+    name: "Sniper"
+    enchantment:
+      #name: level
+      weapon_knockback: 1
+  - id: 262
+    count: 32
+    name: "Sniper's Bullet"
+  - id: 272
+    damage: 0
+    count: 1
+    name: "Sniper's Sword"
+  helmet:
+    id: 306
+    name: "Sniper's Helmet"
+    enchantment:
+      armor_protection: 1
+  chestplate:
+    id: 299
+    name: "Sniper's Chestplate"
+  leggings:
+    id: 300
+    name: "Sniper's Leggings"
+  boots:
+    id: 301
+    name: "Sniper's Boots"
+      cooldown:
+    hours: 0
+    minutes: 15
+  commands:
+  - "tell {player} You just got the sniper kit! Their is a 15 minute cooldown until you can redeem this kit again! You can have access to more kits after you purchase ExodusMember!"
+  effects:
+  - name: "speed"
+    seconds: 100
+    amplifier: 2
+ ReinforcedCombat:
+  items:
+  - id: 267
+    damage: 0
+    count: 1
+    name: "RCombat Sword"
+    enchantment:
+      #name: level
+      weapon_sharpness: 1
+      weapon_knockback: 2
+  helmet:
+    id: 298
+    name: "RCombat Helmet"
+    enchantment:
+      armor_protection: 1
+  chestplate:
+    id: 299
+    name: "RCombat Chestplate"
+  leggings:
+    id: 308
+    name: "RCombat Leggings"
+  boots:
+    id: 309
+    name: "RCombat Boots"
+      cooldown:
+    hours: 0
+    minutes: 15
+  commands:
+  - "tell {player} You just got the reinforced combat kit! Their is a 15 minute cooldown until you can redeem this kit again! You can have access to more kits after you purchase ExodusMember!"
+  effects:
+  - name: "speed"
+    seconds: 100
     amplifier: 2
 ...
